@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    background-color: burlywood;
+    padding: 10px;
+    border: 2px solid black;
+    flex-direction: row;
+}
+.flex-container li{
+    background-color: gainsboro;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    border: 2px solid black;
+}
