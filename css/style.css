@@ -39,7 +39,7 @@
     
 }
 body{
-    background-color: rgba(73, 168, 192, 0.336);
+    background-color: rgba(0, 6, 7, 0.336);
 }
 .flex-camperas{
     display: flex;
@@ -66,4 +66,44 @@ body{
 }
 .titulo-camperas{
     text-align: center;
+}
+.flex-remeras{
+    display: flex;
+    background-color: burlywood;
+    padding: 10px;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-remeras div{
+    background-color: gainsboro;
+    width: 180px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.titulo-remera{
+    text-align: center;
+}
+.titulo-pantalon{
+    text-align: center;
+}
+.flex-pantalon{
+    display: flex;
+    background-color: burlywood;
+    padding: 10px;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-pantalon div{
+    background-color: gainsboro;
+    width: 180px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    border: 2px solid black;
 }
