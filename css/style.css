@@ -6,14 +6,64 @@
     background-color: burlywood;
     padding: 10px;
     border: 2px solid black;
-    flex-direction: row;
 }
-.flex-container li{
+.flex-container div{
     background-color: gainsboro;
-    width: 100px;
+    width: 150px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 20px;
     border: 2px solid black;
+}
+.muestras{
+    text-align: center;
+    display: inline-flex;
+    margin: 20px;
+    border: 2px solid black;
+    height: 230px;
+    margin-left: 400px;
+}
+.titulo-muestras{
+    text-align: start;
+    margin-left: 850px;
+    color: aliceblue;
+}
+.footer{
+    margin-top: 100px;
+    border-top: 2px solid black;
+}
+.muestra{
+    background-image:url(../img/fondo111.webp);
+    background-position: center;
+    
+}
+body{
+    background-color: rgba(73, 168, 192, 0.336);
+}
+.flex-camperas{
+    display: flex;
+    background-color: burlywood;
+    padding: 10px;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-camperas div{
+    background-color: gainsboro;
+    width: 180px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.enlaces-camperas{
+    margin: 10px;
+    color: black;
+    border-bottom: 2px solid red;  
+    text-align: center;
+}
+.titulo-camperas{
+    text-align: center;
 }
